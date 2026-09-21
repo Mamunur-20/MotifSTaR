@@ -1,0 +1,5 @@
+# Python 3.10 or later
+matplotlib>=3.8,<4
+openpyxl>=3.1,<4
+Pillow>=10,<13
+reportlab>=4,<5

@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.venv/
+venv/
+env/
+.conda/
+
+# Local/private input and generated output are ignored by default.
+# Add only deliberately selected, redistributable examples with git add -f.
+examples/input/svgs/**
+!examples/input/svgs/README.md
+examples/output/**
+!examples/output/README.md
+!examples/output/figures/
+!examples/output/figures/README.md
+
+# Common run products outside the example tree
+results/
+output/
+outputs/
+*.log
+tmp/

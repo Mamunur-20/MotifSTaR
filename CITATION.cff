@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use MotifSTaR, please cite this software and the associated paper when available."
+title: "MotifSTaR: allele-level reconstruction and analysis of short tandem repeat motif composition"
+type: software
+version: 1.4.7
+date-released: 2026-09-21
+authors:
+  - family-names: Rahaman
+    given-names: Md Mamunur
+  - family-names: O'Shaughnessy
+    given-names: Daniel
+  - family-names: Zussa
+    given-names: Zoe
+  - family-names: Smith
+    given-names: Andrew
+  - family-names: Henden
+    given-names: Lyndal
+  - family-names: Berkovsky
+    given-names: Shlomo
+  - family-names: Williams
+    given-names: Kelly L.
+repository-code: "https://github.com/Mamunur-20/MotifSTaR"
+abstract: >-
+  MotifSTaR reconstructs strand-normalized, allele-level short tandem repeat
+  motif structures from ExpansionHunter REViewer SVG files using
+  catalogue-aware repeat selection, full-spanning reads, genotype-aware
+  consensus, and explicit quality-control rules.
+keywords:
+  - short tandem repeat
+  - repeat expansion
+  - motif interruption
+  - ExpansionHunter
+  - REViewer
+  - bioinformatics
