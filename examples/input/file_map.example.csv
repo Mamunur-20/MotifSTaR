@@ -1,0 +1,3 @@
+svg_path,sampleID,locus,batch
+svgs/sample_001/sample_001.eh_realigned.reviewer.ZFHX3.svg,sample_001,ZFHX3,public_demo
+svgs/sample_002/sample_002.eh_realigned.reviewer.ZFHX3.svg.gz,sample_002,ZFHX3,public_demo
