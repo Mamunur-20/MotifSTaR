@@ -207,22 +207,7 @@ In a four-worker Linux HPC run, version 1.4.5 processed 4,000 SVGs and generated
 
 These results measure agreement with expert interpretation of the same SVG evidence. They should not be read as clinical sensitivity or specificity against an independent sequencing truth set.
 
-## Important limitations
 
-- REViewer SVGs do not expose read names, base qualities, mapping qualities, or the nucleotide sequence of every insertion.
-- Same-sized sequence groups are inferred from displayed evidence and are not physically phased.
-- If same-sized structures cannot be assigned confidently to top and bottom panels, deterministic reporting order may be used; this does not imply parental origin or molecular phase.
-- A target-region indel can make nucleotide-level reconstruction impossible. When all complete evidence for an allele contains an indel, the allele is reported as `NA(indel detected)` and requires review.
-- MotifSTaR depends on the supplied catalogue, strand annotation, and ReViewer SVG format. Changes to any of these inputs should be validated on representative examples.
-- Disease thresholds shown in locus figures are descriptive catalogue annotations, not standalone clinical classifications.
-
-## Testing
-
-Run the focused regression suite from the repository root:
-
-```bash
-python -m unittest discover -s tests -p "test_*.py" -v
-```
 
 ## Citation
 
