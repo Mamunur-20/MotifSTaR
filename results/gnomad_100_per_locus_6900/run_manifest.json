@@ -1,0 +1,96 @@
+{
+  "allele_order_policy": "Panel-specific calls follow SVG order: top is allele1, bottom is allele2. Identical pooled structures may be reported for both. Distinct pooled same-size structures follow panel order when uniquely supported by panel-specific exact matches of at least max(min_spanning_reads, same_size_min_cluster_reads) and strictly more than 50% of that panel's eligible reads. Otherwise retain the original deterministic pooled-call order without an additional REVIEW or no-call solely for ordering uncertainty. Pooled labels do not guarantee panel assignment or parental phase.",
+  "completed_utc": "2026-09-23T02:03:50.879918+00:00",
+  "compound_pooling_policy": "Compare the complete ordered size vectors of all rendered repeat blocks, including unreported companions; pool only when equal.",
+  "configuration": {
+    "allow_duplicate_sample_locus": false,
+    "component_mode": "primary",
+    "heterozygous_interruption_min_fraction": 0.5,
+    "homozygous_deduplication": "none",
+    "max_near_motif_distance": 0,
+    "min_cluster_reads": 3,
+    "min_spanning_reads": 3,
+    "near_cluster_parent_ratio": 3.0,
+    "same_size_max_assignment_distance": 2,
+    "same_size_max_reported_clusters": 2,
+    "same_size_min_cluster_fraction": 0.2,
+    "same_size_min_cluster_reads": 2,
+    "same_size_min_top_two_coverage": 0.9,
+    "same_size_within_cluster_consensus_min_fraction": 0.5,
+    "strong_cluster_fraction": 0.0,
+    "unresolved_strand_policy": "skip"
+  },
+  "depth_definition_note": "read_depth_alleleN and supporting_read_depth_alleleN count reads matching the reported position-wise consensus structure; full_spanning_read_depth_alleleN counts continuous left-flank/repeat/right-flank rows; callable_full_spanning_read_depth_alleleN also requires an unambiguous, motif-divisible repeat sequence; consensus_eligible_read_depth_alleleN additionally requires the expected allele length and, for same-size genotypes, unique assignment to that allele's selected sequence cluster. Different-size panels are evaluated separately with a strict > threshold. Same-size panels are pooled, exact-path allele seeds must meet both support thresholds, minor paths are assigned only to a unique nearby seed, and each selected cluster gets its own strict > consensus. No allele is forced to an uninterrupted reference path.",
+  "figures": {
+    "backend": "matplotlib",
+    "enabled": true,
+    "formats": [
+      "svg"
+    ],
+    "n_cohort_figure_bases": 3,
+    "n_locus_figure_bases": 134,
+    "n_locus_sequence_composition_figure_bases": 67,
+    "n_locus_summary_figure_bases": 67
+  },
+  "input_audit": {
+    "n_observed_loci": 69,
+    "n_svg_files": 6900,
+    "n_unconfigured_loci": 0,
+    "unconfigured_loci": []
+  },
+  "inputs": {
+    "annotation": "config/gene_strands_companion_locus.xlsx",
+    "annotation_sha256": "276d173eef6759f841a84e0a6f8edee308832313aeebc6b0d7b1dcb2f8cad445",
+    "catalog": "config/variant_catalog_without_offtargets.GRCh38.json",
+    "catalog_sha256": "d56e5f7bd06e4cffb9a592e1734a0c9dcfc33b3e7981e62199912e4fe6923a83",
+    "file_map": "external_inputs/gnomAD_100_per_locus/file_map.tsv",
+    "genotypes": null,
+    "svg_root": "external_inputs/gnomAD_100_per_locus"
+  },
+  "orientation_note": "When reporting_orientation is absent, companion strand '+' is explicitly mapped to reference and '-' to reverse_complement and flagged as inferred.",
+  "outputs": {
+    "n_calls_with_allele1": 6205,
+    "n_loci": 69,
+    "qc_flag_counts": {
+      "allele1_insufficient_consensus_read_support": 558,
+      "allele1_low_read_support": 103,
+      "allele1_same_size_low_cluster_support": 7,
+      "allele2_insufficient_consensus_read_support": 808,
+      "allele2_low_read_support": 121,
+      "allele2_same_size_low_cluster_support": 4,
+      "compound_primary_component_selected": 900,
+      "exact_clustering_used": 6900,
+      "genotype_inferred_from_svg_labels": 6900,
+      "indel_detected_manual_review_required": 627,
+      "insufficient_full_spanning_read_support": 347,
+      "multiple_strong_clusters_within_heterozygous_panel": 13,
+      "no_allele_structure_reconstructed": 571,
+      "only_one_allele_reconstructed_when_two_expected": 698,
+      "orientation_inferred_from_gene_strand": 6900,
+      "same_size_minor_or_unassigned_reads_present": 1008,
+      "same_size_no_supported_cluster": 59,
+      "same_size_panel_order_from_read_support": 90,
+      "same_size_single_cluster_reported_for_both_alleles": 2684,
+      "same_size_top_two_coverage_below_threshold": 192,
+      "same_size_two_clusters_reported": 194,
+      "uncallable_full_spanning_reads_present": 1155
+    },
+    "qc_status_counts": {
+      "PASS": 5617,
+      "REVIEW": 1283
+    }
+  },
+  "processing": {
+    "elapsed_seconds": 136.119,
+    "n_component_records": 6900,
+    "n_read_evidence_rows": 255817,
+    "n_svg_files": 6900
+  },
+  "python": "3.11.15",
+  "selected_loci": [],
+  "software": "str_interruption_tool",
+  "started_utc": "2026-09-23T02:00:56.024132+00:00",
+  "status": "completed",
+  "version": "1.4.7",
+  "workers": 4
+}

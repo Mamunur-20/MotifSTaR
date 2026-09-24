@@ -1,0 +1,101 @@
+sampleID,allele1,allele2,allele1_size,allele2_size,read_depth_allele1,read_depth_allele2
+00a72a94df920641dbad2c860fcba38a3c4,NA,NA(indel detected),NA,NA,NA,NA
+0ec7e335131852a85a74134572af7a037da,NA(indel detected),NA,NA,NA,NA,NA
+1a23dd5f4c2e00e3d8e58296168869cf61d,NA,NA,NA,NA,NA,NA
+1b6b9b68201bb62781b7ef127359e5d50f4,NA,NA,NA,NA,NA,NA
+2bbb4878b81b31b935c32787a05b89d1dda,NA(indel detected),NA,NA,NA,NA,NA
+2d6c19c5611031d47b3672a53007c4b4efb,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+2da6ded9202ef08d3e4c0f0fc361a956e71,NA,NA,NA,NA,NA,NA
+3e5ad946fd345316b3f44765110a752037e,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+3e548a7d5165d02c228c873823b48f11740,NA,NA,NA,NA,NA,NA
+3fa77cb5a945e7eb7f8db2e9588e3a64e83,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+4a375320c48c087cc799c35e75c93267efa,NA,NA(indel detected),NA,NA,NA,NA
+4ff90e6ff30ac712f7fc429f1c426583aff,NA,NA(indel detected),NA,NA,NA,NA
+5a6ed43a7d2134f5de615fcb45bd502d297,NA,NA(indel detected),NA,NA,NA,NA
+5b647a117496b07e2833c377b15e5cc2892,NA,NA(indel detected),NA,NA,NA,NA
+5c4bad561d870e929a11909f339bf76018d,NA(indel detected),NA,NA,NA,NA,NA
+5e8c6f4a4a827b0818b6af588ee30007649,NA(indel detected),NA,NA,NA,NA,NA
+5fac7fdcdcec6ae20b0e6333feb04a045c4,NA,NA,NA,NA,NA,NA
+06c98b6f814e55bbe7603181ca13574d335,NA(indel detected),NA,NA,NA,NA,NA
+7dfafe6f1d301282b923af449648b460b21,NA,NA,NA,NA,NA,NA
+7f81183118ff1b04d2c581f85302415c53f,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+8b533468cc137ed5c152d26de46aebff0ca,NA,NA(indel detected),NA,NA,NA,NA
+8e403e81467b7a090daadc8da4bc0c1b7c0,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+8f83708d521834d2374c57aef2894cb80b8,NA,NA,NA,NA,NA,NA
+9fe0a1854f4ddd702eeb2376d11b774c745,NA,NA(indel detected),NA,NA,NA,NA
+016a8007f1dc6a3a1b93e291d87be8304a0,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+28ed9a8f291aa509b50f57fcc9412e6ebdd,NA(indel detected),NA,NA,NA,NA,NA
+37a0519dd782f3d1c25b21d7924ad4ec937,NA,NA(indel detected),NA,NA,NA,NA
+38e13910ca56b3185efba780f89be37b20b,NA(indel detected),NA,NA,NA,NA,NA
+43af3423da4d42a9a0f584669f6f4d5df8c,NA,NA,NA,NA,NA,NA
+43ec25ba819355628c9430d9f23eedac4a7,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+60ffb8f6458fee19f00686ad02411cffc8f,NA,NA(indel detected),NA,NA,NA,NA
+80d1d537ae72b97771923bec7a3f8acc26b,(CCTG)5(GCTG)1(CCTG)1(TCTG)1(CCTG)7,NA,15,NA,4,NA
+85b4fff85b4e07d87a04b1236aef5776694,NA(indel detected),NA,NA,NA,NA,NA
+94b78909c317a7d7e319e163cf459175033,NA,NA,NA,NA,NA,NA
+97e333254db65252d5ec1e3055eb923d5d7,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+202c3e03ec162018ccb4228d2d893e04ff0,NA(indel detected),(CCTG)7(GCTG)1(CCTG)1(TCTG)1(CCTG)7,NA,17,NA,3
+411f97ce1125585ddae69092b69147ec5b3,NA,NA(indel detected),NA,NA,NA,NA
+529e22c88b39cc8ded689b27270c64f9636,(CCTG)7(GCTG)1(CCTG)1(TCTG)1(CCTG)7,NA(indel detected),17,NA,3,NA
+656c9a7402a296131cdf2b105ab2d38f713,NA,NA,NA,NA,NA,NA
+657c1ceede8187f010b188b24b11d05ffed,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+669b835225e3d641f76f055dd2e36eb2db7,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+1670d053770d93240faed0c034e6a9ca8ee,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+5751b07e988836e2e235debc83bbd253d42,NA(indel detected),NA,NA,NA,NA,NA
+6625babee161675230a8e4aaf260ad97428,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+9071e5cfa312a0fe8aa43fc7dd46bceb999,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+17886a32501e82b0e41c8632c3bdc75eed2,NA(indel detected),NA,NA,NA,NA,NA
+52644bd53d9422b2537bbb72acf9b91f88e,NA,NA,NA,NA,NA,NA
+77551c06dea838e78d7f5f165bff5ec052b,NA,(CCTG)7(GCTG)1(CCTG)1(TCTG)1(CCTG)7,NA,17,NA,4
+169111d00769bdbef76a682f4704326db6c,NA,NA,NA,NA,NA,NA
+233210f7d89b9067d3a97281828f0564048,NA(indel detected),NA,NA,NA,NA,NA
+400357c9ac46dde61d654cb0510549071ae,NA,NA,NA,NA,NA,NA
+534033577bc00464c149df45d89a18176e3,NA,NA(indel detected),NA,NA,NA,NA
+8083677600d6af25928be655044e1708700,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+a7babfa8ae9ae05d18db34788e36513fd13,NA,NA,NA,NA,NA,NA
+a90cf4f29143e7f4ec9d9689530627507f6,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+a966df21b476275c6b704dff34e272f8abd,NA,NA(indel detected),NA,NA,NA,NA
+ad302f19b06562c730be3f7481d18eefadb,NA,NA,NA,NA,NA,NA
+ae503e7f72e186c3d5d07768642d229e70e,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+aed1c15d08b1b723eb3e9562391cf333a67,NA,NA,NA,NA,NA,NA
+b3a75504acc90a0488996e7ee884dc40307,NA(indel detected),NA,NA,NA,NA,NA
+b5e864b8cf6434b7b3d473b499f99f03f01,NA,NA,NA,NA,NA,NA
+b5e12768e81b9a8eba969d1577bf3844b91,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+b9f7978fd236de1e9d136ed827e796558dd,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+b13caeb5176d090b53186b0ba01cbd6b7f2,NA,NA,NA,NA,NA,NA
+b40ab1093d107aa6fa1a4265a1096e822a7,NA(indel detected),NA,NA,NA,NA,NA
+b71b973b4ac1db9d969fd88db6cccd688eb,NA,NA,NA,NA,NA,NA
+bb55c764a99df46decea07a3bca2d3f1025,NA(indel detected),NA,NA,NA,NA,NA
+bba325bdc9eff82c624845bc0e5f9078b21,NA(indel detected),(CCTG)6(GCTG)1(CCTG)1(TCTG)1(CCTG)7,NA,16,NA,4
+bd0a659d3fd8fffced8a3e97eda21808d86,(CCTG)5(GCTG)1(CCTG)1(TCTG)1(CCTG)7,NA(indel detected),15,NA,3,NA
+bdf6dd3fcc75f0de39d665a9a714fcb1f67,NA(indel detected),NA,NA,NA,NA,NA
+be03ca1688c5dde7b3965cde1a12827f8cd,NA,NA,NA,NA,NA,NA
+be5b2ce26ec562384d982c4a5c9ce3c3c86,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+bf051e212e8d6681a5255ed7bd2d58d5cb8,(CCTG)6(GCTG)1(CCTG)9,NA(indel detected),16,NA,3,NA
+c34ba14a664fa805a1164d57585c1ad4c24,NA,NA(indel detected),NA,NA,NA,NA
+c1687af47e862fdd04ac8d5dd7995c48744,NA,NA(indel detected),NA,NA,NA,NA
+cfdec9a0f1b41538f3a71dfeb983f344da8,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+d1fb5104c9d3715ce6846be7e4472a6fd5a,NA,NA(indel detected),NA,NA,NA,NA
+d3aa0f99d56edceff10230a14d4b5525536,NA,NA(indel detected),NA,NA,NA,NA
+d8d2e1ef4cb1f448a5d9b586a83010a7ce6,NA(indel detected),(CCTG)5(GCTG)1(CCTG)1(TCTG)1(CCTG)8,NA,16,NA,3
+d9c76e0dfdce0abded1a470cb5ede2aa94b,NA(indel detected),NA,NA,NA,NA,NA
+d28b66bdfb8ceb482a58bbb528474fc2543,NA(indel detected),NA,NA,NA,NA,NA
+d59ddaf43ba42d2bde70669f45b79013b50,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+d73fd4b36a40b65dced562b0ad180c272a2,NA,NA(indel detected),NA,NA,NA,NA
+e5bef303936af47afaa698219a4c867d796,NA,NA(indel detected),NA,NA,NA,NA
+e7b309d476ea965d6bfebc467d2871ce18e,NA(indel detected),NA,NA,NA,NA,NA
+e016acd592ab7975672667b0c338a5d4cbc,NA(indel detected),NA,NA,NA,NA,NA
+e68d116845d93393de374f5fd05525df58f,NA(indel detected),NA,NA,NA,NA,NA
+e652cf6c35454a73b48e5c753c6a3cc8eca,NA,NA,NA,NA,NA,NA
+e773e91824208b7ecd80022098aca643765,NA(indel detected),NA,NA,NA,NA,NA
+e1972fcb29655979e341e95ed3f17b8c7b9,NA,NA,NA,NA,NA,NA
+e59955a5a9a2472eaf22a79d94739f62767,NA,NA,NA,NA,NA,NA
+e62006260045eade64113e47da517abb58d,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+eac903b1fe2fc8c458a7d90801178cf6348,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+ec3aa0588de28a2457099d7a7e0d3c9f842,(CCTG)5(GCTG)1(CCTG)1(TCTG)1(CCTG)4,NA(indel detected),12,NA,6,NA
+f12b73b94cbcfdbb81d855fb60a6686625d,NA(indel detected),NA(indel detected),NA,NA,NA,NA
+f26e5be1acbbfed6d35a13bda55faefb338,NA,NA,NA,NA,NA,NA
+fb06d3d1bc3308edbb753edec7206844846,NA(indel detected),NA,NA,NA,NA,NA
+ff2a6d19941a5c407e5dfddb3b2aef192db,(CCTG)5(GCTG)1(CCTG)1(TCTG)1(CCTG)7,(CCTG)5(GCTG)1(CCTG)1(TCTG)1(CCTG)7,15,15,3,3
+ff6486e8a861a286b102115e330cca63d67,NA,NA,NA,NA,NA,NA
+ffaf942c0421f4e66ccbcd91fbbad4ba6c7,(CCTG)5(GCTG)1(CCTG)1(TCTG)1(CCTG)7,NA(indel detected),15,NA,3,NA
