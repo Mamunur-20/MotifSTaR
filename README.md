@@ -38,25 +38,24 @@ MotifSTaR does **not** estimate the ExpansionHunter genotype de novo. It uses th
 
 ```text
 MotifSTaR/
-├── assets/                          # Workflow figure for the GitHub README
-├── motifstar.py                    # Main program
-├── environment.yml                # Reproducible Conda environment
-├── requirements.txt               # pip alternative
+├── .github/
+│   └── workflows/tests.yml             # Automated tests
+├── assets/                           # Workflow figure for the GitHub README
+├── motifstar.py                     # Main program
+├── environment.yml                 # Reproducible Conda environment
+├── requirements.txt                # pip alternative
 ├── config/
 │   ├── variant_catalog_without_offtargets.GRCh38.json
-│   ├── gene_strands_companion_locus.xlsx
-│   └── README.md
-├── docs/
-│   ├── INSTALLATION.md
-│   ├── GITHUB_UPLOAD.md
-│   ├── INPUTS.md
-│   ├── CLI_REFERENCE.md
-│   ├── OUTPUTS_AND_FIGURES.md
-│   ├── VALIDATION.md
-│   └── RELEASE_CHECKLIST.md
+│   └── gene_strands_companion_locus.xlsx
+├── docs/                             # Installation and usage documentation
 ├── examples/
-│   ├── input/                      # Add redistributable example SVGs here
-│   └── output/                     # Add a public example run here
+│   ├── input/gnomad_demo/            # Five public ZFHX3 demonstration SVGs
+│   └── output/README.md
+├── results/
+│   └── gnomad_100_per_locus_6900/    # Complete 6,900-record output
+├── scripts/
+│   ├── download_gnomad_str_svgs.py
+│   └── prepare_public_output.py
 └── tests/
     └── test_motifstar.py
 ```
@@ -184,6 +183,46 @@ examples/output/motifstar_run/
 
 See [Outputs and figures](docs/OUTPUTS_AND_FIGURES.md) for field definitions and guidance on reading each visualization.
 
+## Public gnomAD demonstration and complete result set
+
+The repository includes a small, reproducible demonstration using five public
+`ZFHX3` REViewer SVGs:
+
+- [Demonstration SVGs and file map](examples/input/gnomad_demo)
+- [Complete 6,900-record result set](results/gnomad_100_per_locus_6900)
+
+Run the demonstration from the repository root:
+
+```bash
+python -u motifstar.py \
+  --svg-root examples/input/gnomad_demo/svgs \
+  --file-map examples/input/gnomad_demo/file_map.tsv \
+  --catalog config/variant_catalog_without_offtargets.GRCh38.json \
+  --annotation config/gene_strands_companion_locus.xlsx \
+  --output examples/output/gnomad_demo_run \
+  --workers 1 \
+  --component-mode primary \
+  --figure-formats svg,png
+```
+
+A larger population-reference analysis was performed using 6,900 public
+gnomAD REViewer SVGs, comprising 100 sample–locus observations at each of 69
+STR loci. MotifSTaR version 1.4.7 processed all 6,900 SVGs with four workers
+in 136.1 seconds, producing 5,617 PASS calls, 1,283 REVIEW calls and no
+processing errors.
+
+These are 6,900 sample–locus observations and should not be interpreted as
+6,900 confirmed unique participants. REVIEW is a quality-control outcome
+indicating that one or more configured evidence requirements were not
+satisfied; it is not a processing error.
+
+The complete input SVG archive is available separately through
+[Google Drive](https://drive.google.com/file/d/15PRshfYcfhfw19yqNvKGCMIB7pOLEiDr/view?usp=sharing).
+The source data were obtained from the public gnomAD STR resource and remain
+subject to its terms of use and citation requirements. These data should be
+described as a population-reference dataset, not as a cohort of neurologically
+healthy controls.
+
 ## Figures
 
 With figures enabled, MotifSTaR generates:
@@ -221,7 +260,7 @@ Suggested software citation before the paper DOI is available:
 
 A software licence must be selected by the copyright owner before the public release is advertised as reusable. This repository intentionally does not invent that legal decision; see [Release checklist](docs/RELEASE_CHECKLIST.md).
 
-The catalogue, annotation table, and any public SVG examples may have their own source and redistribution terms. Document those terms in `config/README.md` and `examples/input/README.md` before publishing the files.
+The catalogue, annotation table, and public SVG examples may have their own source and redistribution terms. Provenance for the complete gnomAD-derived result set is documented in [`results/gnomad_100_per_locus_6900/README.md`](results/gnomad_100_per_locus_6900/README.md). Equivalent provenance and redistribution information should be recorded for the configuration files before formal release.
 
 ## Contact and contributions
 
